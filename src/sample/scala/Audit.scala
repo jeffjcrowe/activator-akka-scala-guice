@@ -1,5 +1,3 @@
-package sample
-
 import akka.actor.{Actor, ActorRef}
 import akkaguice.NamedActor
 import com.google.inject.{BindingAnnotation, Inject}

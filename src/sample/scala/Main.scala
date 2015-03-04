@@ -1,11 +1,10 @@
+import CountingActor.{Count, Get}
 import akka.actor.ActorSystem
 import akka.pattern.ask
 import akkaguice.{AkkaModule, GuiceAkkaExtension}
 import com.google.inject.Guice
 import config.ConfigModule
 import net.codingwell.scalaguice.InjectorExtensions._
-import sample.CountingActor.{Count, Get}
-import sample.{AuditModule, CountingActor, SampleModule}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._

@@ -1,9 +1,8 @@
-package sample
-
-import akka.actor.{ActorRef, Actor}
-import akkaguice.NamedActor
 import javax.inject.Inject
 
+import CountingActor.{Count, Get}
+import akka.actor.{Actor, ActorRef}
+import akkaguice.NamedActor
 import com.google.inject.name.Named
 
 object CountingActor extends NamedActor {
@@ -24,8 +23,6 @@ object CountingActor extends NamedActor {
  *   from Guice.
  */
 class CountingActor @Inject() (countingService: CountingService, @Named(AuditCompanion.name) auditCompanion: ActorRef) extends Actor {
-
-  import CountingActor._
 
   private var count: Int = 0
 

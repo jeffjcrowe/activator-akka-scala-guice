@@ -1,5 +1,3 @@
-package sample
-
 import javax.inject.Inject
 
 import akka.actor.{Actor, ActorRef, ActorSystem}

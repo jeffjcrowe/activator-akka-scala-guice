@@ -1,9 +1,7 @@
-package sample
-
 import akka.actor.Actor
-import net.codingwell.scalaguice.ScalaModule
 import com.google.inject.AbstractModule
 import com.google.inject.name.Names
+import net.codingwell.scalaguice.ScalaModule
 
 /**
  * A Guice module for the counting actor and service.

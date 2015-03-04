@@ -1,11 +1,13 @@
+organization := "akkaguice"
+
 name := "activator-akka-scala-guice"
 
-version := "1.0-SNAPSHOT"
+version := "1.0"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.5"
 
 libraryDependencies ++= {
-  val akkaVersion  = "2.3.5"
+  val akkaVersion  = "2.3.9"
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,

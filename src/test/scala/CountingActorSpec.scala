@@ -10,8 +10,7 @@ import config.ConfigModule
 import net.codingwell.scalaguice.InjectorExtensions._
 import net.codingwell.scalaguice.ScalaModule
 import org.scalatest.{BeforeAndAfterAll, Matchers, WordSpecLike}
-import sample.CountingActor.{Count, Get}
-import sample._
+import CountingActor.{Count, Get}
 
 import scala.collection.JavaConverters._
 import scala.concurrent.Await

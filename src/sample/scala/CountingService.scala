@@ -1,7 +1,6 @@
-package sample
+import javax.inject.Inject
 
 import com.typesafe.config.Config
-import javax.inject.Inject
 
 /**
  * A simple service that can increment a number. Also demonstrated is injecting a Typesafe config into
