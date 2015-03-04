@@ -11,8 +11,8 @@ libraryDependencies ++= {
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
-    "com.google.inject" % "guice" % "4.0-beta4",
-    "net.codingwell" %% "scala-guice" % "4.0.0-beta4",
+    "com.google.inject" % "guice" % "4.0-beta5",
+    "net.codingwell" %% "scala-guice" % "4.0.0-beta5",
     "org.scalatest" %% "scalatest" % "2.2.1" % "test",
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test"
   )
